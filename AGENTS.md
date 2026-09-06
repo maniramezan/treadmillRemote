@@ -13,6 +13,8 @@
 
 - `TreadmillRemote.xcodeproj/project.pbxproj` is committed and is the
   authoritative Xcode project.
+- `TreadmillRemote/Assets.xcassets` contains the app icon. Keep its
+  `AppIcon.appiconset` resource referenced by the target's Resources phase.
 - Make routine changes directly in source files. Do not run XcodeGen after
   every change; it can rewrite unrelated project settings.
 - Do not change `CODE_SIGN_STYLE`, `CODE_SIGN_IDENTITY`, bundle identifiers, or
@@ -63,4 +65,3 @@ xcodebuild -project TreadmillRemote.xcodeproj \
 For routine source edits, build the committed project directly. Only update
 the generated project intentionally and inspect the diff for signing or
 bundle-setting changes before committing.
-

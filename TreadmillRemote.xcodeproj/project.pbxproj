@@ -14,6 +14,7 @@
 		A7DB85FE95A89E42915AE367 /* ConsoleLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7467769CB7F6B4290476FFA9 /* ConsoleLogView.swift */; };
 		D588103AE61622BD87041D10 /* TreadmillRemoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289510631C5A5600A08EE221 /* TreadmillRemoteApp.swift */; };
 		D71B00E1CF8A0D00FA8BCC7B /* TreadmillProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12686C680E4DABC108CBCF9 /* TreadmillProtocol.swift */; };
+		F4B6A7C8D9E0011223344556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6071829304050 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7467769CB7F6B4290476FFA9 /* ConsoleLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleLogView.swift; sourceTree = "<group>"; };
 		940B32055052397B86CDBF7C /* TreadmillRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreadmillRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12686C680E4DABC108CBCF9 /* TreadmillProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreadmillProtocol.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6071829304050 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -56,6 +58,7 @@
 				6DDB458123D455C2C522F578 /* TreadmillManager.swift */,
 				F12686C680E4DABC108CBCF9 /* TreadmillProtocol.swift */,
 				289510631C5A5600A08EE221 /* TreadmillRemoteApp.swift */,
+				A1B2C3D4E5F6071829304050 /* Assets.xcassets */,
 			);
 			path = TreadmillRemote;
 			sourceTree = "<group>";
@@ -68,6 +71,7 @@
 			buildConfigurationList = 652DE1B4648BBD5A7EC01322 /* Build configuration list for PBXNativeTarget "TreadmillRemote" */;
 			buildPhases = (
 				EBA30728A1A43A8544F711EC /* Sources */,
+				C8D9E0F1A2B3041526374859 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +133,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8D9E0F1A2B3041526374859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B6A7C8D9E0011223344556 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		26D76B5175FA22D2F06AF5FF /* Debug */ = {
