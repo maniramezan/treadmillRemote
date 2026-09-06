@@ -15,6 +15,7 @@
 		D588103AE61622BD87041D10 /* TreadmillRemoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289510631C5A5600A08EE221 /* TreadmillRemoteApp.swift */; };
 		D71B00E1CF8A0D00FA8BCC7B /* TreadmillProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12686C680E4DABC108CBCF9 /* TreadmillProtocol.swift */; };
 		F4B6A7C8D9E0011223344556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6071829304050 /* Assets.xcassets */; };
+		B7C8D9E0F1A2031425364758 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3E4F5A6B708192A3B4C5D /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		940B32055052397B86CDBF7C /* TreadmillRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreadmillRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12686C680E4DABC108CBCF9 /* TreadmillProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreadmillProtocol.swift; sourceTree = "<group>"; };
 		A1B2C3D4E5F6071829304050 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2D3E4F5A6B708192A3B4C5D /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -59,6 +61,7 @@
 				F12686C680E4DABC108CBCF9 /* TreadmillProtocol.swift */,
 				289510631C5A5600A08EE221 /* TreadmillRemoteApp.swift */,
 				A1B2C3D4E5F6071829304050 /* Assets.xcassets */,
+				C2D3E4F5A6B708192A3B4C5D /* SplashView.swift */,
 			);
 			path = TreadmillRemote;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 				9F207AFC1EB0247D7DD5E7A3 /* TreadmillManager.swift in Sources */,
 				D71B00E1CF8A0D00FA8BCC7B /* TreadmillProtocol.swift in Sources */,
 				D588103AE61622BD87041D10 /* TreadmillRemoteApp.swift in Sources */,
+				B7C8D9E0F1A2031425364758 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
